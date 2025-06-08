@@ -1,7 +1,6 @@
 @media screen and (min-width: 350px) and (max-width: 599px) {
   body {
     flex-wrap: wrap;
-    margin: 10px;
   }
 
   #login {
@@ -126,7 +125,6 @@
 @media screen and (min-width: 600px) and (max-width: 768px) {
   body {
     flex-wrap: wrap;
-    margin: 10px;
   }
 
   #login {
@@ -248,7 +246,6 @@
 @media screen and (min-width: 769px) and (max-width: 959px) {
   body {
     flex-wrap: wrap;
-    margin: 10px;
   }
 
   #login {
@@ -290,21 +287,27 @@
     margin: 0px;
     padding: 0;
   }
-
+  .salesText {
+    min-height: 200px;
+  }
   .text2,
   .text5 {
+    /* min-height: 56px;
+    max-height: 112px; */
     font-size: 25px;
   }
 
   .text1,
   .text4 {
+    height: 28px;
     font-size: 20px;
   }
 
   .sales1 {
     margin: 0px;
+    margin-left: 1%;
     margin-bottom: 15px;
-    width: 49%;
+    width: 48%;
     height: 70%;
   }
 
@@ -410,7 +413,6 @@
 @media screen and (min-width: 960px) and (max-width: 1250px) {
   body {
     flex-wrap: wrap;
-    margin: 10px;
   }
 
   #login {
@@ -469,8 +471,9 @@
 
   .sales1 {
     margin: 0px;
+    margin-left: 1%;
     margin-bottom: 15px;
-    width: 49%;
+    width: 48%;
     height: 70%;
   }
 
@@ -576,7 +579,6 @@
 @media screen and (min-width: 1251px) and (max-width: 1400px) {
   body {
     flex-wrap: wrap;
-    margin: 10px;
   }
 
   #login {
